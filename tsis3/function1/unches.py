@@ -1,4 +1,5 @@
-def ounces(x): return x*28.3495231
+def ounces(x): 
+    return x*28.3495231
 
 
 print("Enter grams:")

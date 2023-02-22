@@ -26,3 +26,8 @@ print(distance)
 
 xy = Point.move(xy, int(input()), int(input()))
 Point.show(xy)
+
+cnt=0
+cnt+=xy
+
+print(cnt)

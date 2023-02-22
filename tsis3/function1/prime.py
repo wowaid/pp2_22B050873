@@ -8,6 +8,7 @@ def filter_prime(n):
 print("Enter size of list:")
 n = int(input())
 print("Enter elements of list:")
+#l=list(map(int, input().split()))
 l = list()
 for i in range(n):
     x = int(input())

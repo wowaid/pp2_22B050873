@@ -1,14 +1,6 @@
-def filter_prime(number):
-    for i in range(2, number):
-        if number % i == 0:
-            return False
-    return True
+def filter_prime(numbers): 
+    return filter(lambda x: all(x % i != 0 for i in range(2, x)), numbers) 
 
-
-n = int(input())
-l = []
-for i in range(n):
-    x = int(input())
-    l.append(x)
-primes = list(filter(filter_prime, l))
-print(primes)
+numbers = list(map(int , input().split())) 
+prime_numbers = list(filter_prime(numbers)) 
+print(prime_numbers)

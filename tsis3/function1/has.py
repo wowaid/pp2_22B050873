@@ -1,6 +1,6 @@
-def has__33(lst):
-    for i in range(len(lst)-1):
-        if lst[i] == lst[i+1] == 3:
+def has__33(ls):
+    for i in range(len(ls)-1):
+        if ls[i] == ls[i+1] == 3:
             return True
     return False
 
