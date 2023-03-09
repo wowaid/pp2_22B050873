@@ -1,6 +1,6 @@
 import os
-first = open("C:\python2\week6\lab6\dirandfiles\demo.txt", "r")
-second = open("C:\python2\week6\lab6\dirandfiles\secondd7.txt", "a")
+first = open("C:/Users/damir/OneDrive/Рабочий стол/papkaa/pp2/pp2_22B050873/tsis6/2/demo.txt", "r")
+second = open("C:/Users/damir/OneDrive/Рабочий стол/papkaa/pp2/pp2_22B050873/tsis6/2/second7.txt", "a")
 for lines in first:
     second.write(lines)
 

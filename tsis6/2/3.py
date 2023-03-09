@@ -1,8 +1,8 @@
 import os
 print("Test a path exists or not:")
-path = r'demoo.txt'
+path = r'demo.txt'
 print(os.path.exists(path))
-path = r'C:\python2\week6\w3school\writecreatefiles.py'
+path = r'C:/Users/damir/OneDrive/Рабочий стол/papkaa/pp2/pp2_22B050873/tsis6'
 print(os.path.exists(path))
 print("\nFile name of the path:")
 print(os.path.basename(path))

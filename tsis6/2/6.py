@@ -1,6 +1,11 @@
-import os, string
-if not os.path.exists("letters"):
-    os.makedirs("C:\python2\week6\lab6\dirandfiles\letters")
-for letter in string.ascii_uppercase:
-    with open("C:\python2\week6\lab6\dirandfiles\letters\ " + letter + ".txt", "w") as f:
-        f.writelines(letter)
+import os
+
+path = 'C:/Users/damir/OneDrive/Рабочий стол/papkaa/pp2/pp2_22B050873/tsis6'
+
+os.mkdir(f'{path}/alphabet')
+
+os.chdir(f'{path}/alphabet')
+
+
+for i in range (65, 91):
+    open(chr(i) + '.txt', 'x')
