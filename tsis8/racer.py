@@ -142,7 +142,7 @@ while True:
 
     #Collect coins
     if pygame.sprite.spritecollideany(p1, coinss):
-        pygame.mixer.Sound("./elements/coin_collect.wav").play()
+        pygame.mixer.Sound("C:\\Users\\damir\\OneDrive\\Рабочий стол\\papkaa\\pp2\\pp2_22B050873\\tsis8\\elements\\week8_lab_elements_coin_collect.wav").play()
         for entity in coinss:
             coin_score += 1
             entity.kill()
@@ -151,7 +151,7 @@ while True:
         c2.new()
     #To be run if collision occurs between Player and Enemy
     if pygame.sprite.spritecollideany(p1, enemies):
-        pygame.mixer.Sound("./elements/crash.wav").play()
+        pygame.mixer.Sound("C:\\Users\\damir\\OneDrive\\Рабочий стол\\papkaa\\pp2\\pp2_22B050873\\tsis8\\elements\\week8_lab_elements_crash.wav").play()
         time.sleep(0.5)
 
         screen.fill(color_red)
