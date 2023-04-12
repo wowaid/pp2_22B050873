@@ -1,4 +1,3 @@
-#Imports
 import pygame , sys
 import random, time
 from pygame.locals import *
