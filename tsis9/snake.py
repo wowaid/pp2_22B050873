@@ -26,7 +26,7 @@ pygame.display.set_caption('Snakes')
 game_window = pygame.display.set_mode((window_x, window_y))
 clock = pygame.time.Clock()
 FPS = 11
-pygame.display.set_icon(pygame.image.load("snake_icon.jpg"))
+pygame.display.set_icon(pygame.image.load("./snakes/snake_icon.jpg"))
 pygame.time.set_timer(pygame.USEREVENT, 1000)
 snake_position = [105, 45]
 start_tick = pygame.time.get_ticks()
