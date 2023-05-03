@@ -34,6 +34,9 @@ gold = "C:\\Users\\damir\\OneDrive\\Рабочий стол\\papkaa\\pp2\\pp2_22
 silver = "C:\\Users\\damir\\OneDrive\\Рабочий стол\\papkaa\\pp2\\pp2_22B050873\\tsis9\\racing\\Silver-Coin.jpg"
 bronze = "C:\\Users\\damir\\OneDrive\\Рабочий стол\\papkaa\\pp2\\pp2_22B050873\\tsis9\\racing\\Bronze-Coin (2).jpg"
 
+
+ere=pygame.mixer.Sound("C:\\Users\\damir\\OneDrive\\Рабочий стол\\papkaa\\pp2\\pp2_22B050873\\tsis9\\racing\\Teriyaki_Boyz_-_Tokyo_Drift_Fast_Furious_(musmore.com).mp3")
+ere.play()
 # Points
 
 minutes = seconds = 0
@@ -194,6 +197,7 @@ def game_over():
     screen.blit(gameover, (0, 0))
     pygame.display.update()
     time.sleep(1)
+
 
 
 # Create sprites

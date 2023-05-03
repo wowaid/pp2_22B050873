@@ -9,10 +9,9 @@ music_files = os.listdir(music_dir)
 current_music = 0
 pygame.mixer.music.load(music_dir + music_files[current_music])
 
-font = pygame.font.SysFont(None, 24)
 
 key_play = pygame.K_SPACE
-key_stop = pygame.K_ESCAPE
+key_stop = pygame.K_ESCAPE  
 key_next = pygame.K_RIGHT
 key_prev = pygame.K_LEFT
 
